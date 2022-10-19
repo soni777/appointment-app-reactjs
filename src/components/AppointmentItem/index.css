@@ -1,0 +1,41 @@
+.list-container {
+  border: solid 1px #b5b7c4;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.title-star-container {
+  display: flex;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .star {
+    width: 24px;
+    height: 24px;
+  }
+  .list-container {
+    width: 300px;
+    height: 100px;
+    margin-right: 15px;
+  }
+}
